@@ -1,0 +1,66 @@
+body {
+    
+}
+
+/*Design numbers and operators shown in field*/
+
+#field p {
+    font-size: 45px;
+    text-align: right;
+    margin-right: 5px;
+}
+
+/*Design the calculator size and visual*/
+
+#calculator {
+    width: 350px;
+    height: 500px;
+    border: 1px solid rgb(0, 0, 0) ;
+    border-radius: 10px;
+    background-color: rgb(26, 1, 4)
+}
+
+.centerContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.numberButtons button {
+    width: 70px;
+    height: 60px;
+}
+
+#sum {
+    width: 100%;
+}
+
+/* Design the window for calculations prints*/
+
+#field {
+    width: 100%;
+    height: 60px;
+    border: solid 2px rgb(134, 124, 124);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+/* Buttons*/
+
+.numberButtons button {
+    background-color:white
+}
+
+#clearButton {
+    background-color: rgb(236, 63, 63);
+}
+
+#btn0 {
+    width: 49.2%
+}
+
+.numberButtons button  {
+    font-size:18px;
+    font-family: cursive
+}
